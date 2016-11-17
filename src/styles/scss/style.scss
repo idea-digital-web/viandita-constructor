@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*!
+ * Template: storefront
+ * Text Domain: storefront
+ * Tags:  e-commerce
+*/
+@import 'vendors/**/*';
+@import 'utils/**/*';
+@import '../fonts/src/**/*';
+@import '../fonts/scss/font-awesome';
+@import 'storefront/storefront';
+@import 'customs/**/*';
+@import 'components/**/*';
