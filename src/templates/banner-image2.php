@@ -1,1 +1,1 @@
-http://i0.wp.com/frio.ideapruebas.com/blog/wp-content/uploads/2016/10/minibanner-2.jpg
+http://i2.wp.com/cerroverdestore.com/wp-content/uploads/2016/08/banner-content-3.png
