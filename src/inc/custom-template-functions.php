@@ -48,18 +48,18 @@ function nav_top_login(){
 	?>
 	<nav class="site-header_nav">
 		<div class="site-header_nav--item site-header_nav--contact">
-			<i class="fa fa-phone">
+			<i class="fa fa-mobile">
 			</i>
 			<span>
-				<?php get_template_part( 'templates/add', 'phone'); ?> /
+				<!-- <?php get_template_part( 'templates/add', 'phone'); ?> / -->
 				<?php get_template_part( 'templates/add', 'mobile'); ?>
 			</span>
 		</div>
-		<div class="site-header_nav--item site-header_nav--contact">
+		<!-- <div class="site-header_nav--item site-header_nav--contact">
 			<i class="fa fa-envelope-o">
 			</i>
 			<span><?php bloginfo('admin_email'); ?></span>
-		</div>
+		</div> -->
 		<div class="site-header_nav--item site-header_nav--welcome">
 				<?php if ( is_user_logged_in() ) {
 					global $current_user; wp_get_current_user(); if ($current_user->user_firstname == true): ?>
@@ -90,9 +90,9 @@ function nav_top_login(){
 			<?php };?>
 		</div>
 		<div class="site-header_nav--item site-header_nav--social">
-			<a href="<?php get_template_part( 'templates/add', 'facebook'); ?>" target="_blank"><i class="fa fa-facebook-official"></i></a>
-			<!-- <a href="<?php get_template_part( 'templates/add', 'twitter'); ?>" target="_blank"><i class="fa fa-twitter"></i></a>
-			<a href="<?php get_template_part( 'templates/add', 'instagram'); ?>" target="_blank"><i class="fa fa-instagram"></i></a> -->
+			<a href="<?php get_template_part( 'templates/add', 'facebook'); ?>" target="_blank"><i class="fa fa-facebook"></i></a>
+			<a href="<?php get_template_part( 'templates/add', 'twitter'); ?>" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="<?php get_template_part( 'templates/add', 'instagram'); ?>" target="_blank"><i class="fa fa-instagram"></i></a>
 		</div>
 	</nav>
 	<?php

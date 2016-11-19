@@ -3,6 +3,20 @@
  * Custom HEADER
  * ----------------------------------------------------------------------------------
 */
+
+$nav-line-height: 35px;
+
+.style-fontawesome{
+	background-color: white;
+	color: $third-theme-color;
+	border-radius: 50%;
+	width: $nav-line-height;
+	height: $nav-line-height;
+	line-height: $nav-line-height;
+	text-align: center;
+	vertical-align: middle;
+}
+
 .site-header{
 	background-color: $body-background;
 	&>.col-full{
@@ -70,11 +84,13 @@
 		justify-content: center;
 		background-color: $third-theme-color;
 		box-sizing: border-box;
+		padding: 5px 0;
 		&--item{
 			width: 100%;
 			box-sizing: border-box;
 			padding-left: 1rem;
 			display: none;
+			line-height: 32px;
 			@include respond-to(lg) {
 				display: block;
 			}
@@ -86,14 +102,20 @@
 		&--login a,
 		&--social a i{
 			color: white; //$black;
-			line-height: 2rem;
 		}
 		&--contact{
 			>a{
 				font-weight: 300;
 			}
-			>i.fa-envelope-o::before{
+			>i.fa-envelope-o:before{
 				margin-right: 0.5rem;
+			}
+			>i.fa-mobile{
+				margin-right: 0.5rem;
+				@extend .style-fontawesome;
+				&:before{
+					font-size: 2rem;
+				}
 			}
 			@include respond-to(lg) {
 				width: 22%;
@@ -159,8 +181,20 @@
 			}
 		}
 		&--social{
+			>a>i.fa-facebook,
+			>a>i.fa-twitter,
+			>a>i.fa-instagram{
+				@extend .style-fontawesome;
+				&:before{
+					font-size: 1.5rem;
+				}
+			}
+			>a>i.fa-instagram{
+				background-color: $third-theme-color;
+				color: white;
+			}
 			@include respond-to(lg) {
-				width: 10%;
+				width: 20%;
 				text-align: center;
 				font-size: 1.2rem;
 			}
