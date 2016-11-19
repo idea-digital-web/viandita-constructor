@@ -140,16 +140,17 @@ $nav-line-height: 35px;
 					min-width: 50px;
 					color: $white;
 					font-weight: 300;
-					background-color: #5c5d69;
+					background-color: $third-theme-color;
+					outline-color: $third-theme-color;
 					&:focus{
-						outline-color: transparent;
+						outline-color: $third-theme-color;
 					}
 					// >span>i{
 					// 	color: $third-theme-color;
 					// }
 				}
 				&>ul{
-					background-color: #5c5d69; //$color-theme;
+					background-color: $third-theme-color; //$color-theme;
 					box-sizing: border-box;
 					& li{
 						width: 100%;
