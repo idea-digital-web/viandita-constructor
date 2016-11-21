@@ -1,3 +1,9 @@
+commit 113fcf9636125698c8bf729901dbdba9f141eee5
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Nov 18 20:57:27 2016 -0400
+
+    Cambiado estilos de nav top
+
 commit 5dab2811e081fdc7abb28609999cc6f5e88279f2
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Nov 18 20:29:20 2016 -0400

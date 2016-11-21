@@ -28,9 +28,13 @@ $nav-line-height: 35px;
 			@include respond-to(lg) {
 				display: flex;
 				align-items: center;
-				width: 300px;
+				width: 100%;
+				// width: 300px;
 				//height: 225px;
-				margin-right: 1rem;
+				// margin-right: 1rem;
+				>a{
+					margin: 0 auto;
+				}
 			}
 		}
 		&>section.inner_container{
@@ -42,7 +46,8 @@ $nav-line-height: 35px;
 				// padding: 1rem 0; incluyendo el banner-header
 				margin-bottom: 7rem;
 				margin-top: 3rem;
-				width: 70%;
+				// width: 70%;
+				width: 100%;
 				height: 0;
 			}
 			& picture{
@@ -52,6 +57,7 @@ $nav-line-height: 35px;
 			& div.site-search-container{
 				width: 65%;
 				height: 0;
+				margin: 0 auto; //la viandita
 				& div.site-search{
 					width: 100%;
 					padding: 0 1rem 0 2rem;

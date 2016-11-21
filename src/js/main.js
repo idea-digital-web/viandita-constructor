@@ -10,6 +10,7 @@ import addFlexsliderProducts from './lib/addFlexsliderProducts'
 import flexsliderProducts from './lib/flexsliderProducts'
 import addViewDetails from './lib/addViewDetails'
 import changueAttr from './lib/changueAttr'
+import addAttr from './lib/addAttr'
 import customStickyNavbar from './lib/customStickyNavbar'
 import singleProduct from './lib/singleProduct'
 
@@ -31,6 +32,7 @@ import singleProduct from './lib/singleProduct'
     flexsliderProducts()
     addViewDetails()
     changueAttr()
+    addAttr()
     customStickyNavbar()
     singleProduct()
   }

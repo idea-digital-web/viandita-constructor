@@ -38,7 +38,7 @@ add_action( 'after_head', 'add_browsehappy', 10 );
 	add_action( 'storefront_header', 'coll_full_container', 19 );
 	add_action( 'storefront_header', 'inner_container', 21 );
 	add_action( 'storefront_header', 'storefront_product_search', 25 );
-	add_action( 'storefront_header', 'header_cart', 26 );
+	// add_action( 'storefront_header', 'header_cart', 26 );
 	// add_action( 'storefront_header', 'banner_header', 35 );
 	add_action( 'storefront_header', 'inner_container_close', 36 );
 	add_action( 'storefront_header', 'coll_full_container_close', 37 );

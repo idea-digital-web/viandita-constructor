@@ -87,10 +87,11 @@
 			font-size: 1.2rem;
 			font-style: italic;
 			border: 5px solid $border-search-color;
-			background-color: $white;
+			background-color: $border-search-color;
 			box-shadow: none !important;
-			margin-left: 7rem;
+			margin-left: 5rem;
 			box-sizing: border-box;
+			width: 100%;
 		}
 
 		form {
@@ -102,15 +103,15 @@
 				padding: 0 2rem;
 				font-size: 1.5rem;
 				line-height: 60px;
-				// background-color: $color-theme;
+				// background-color: $border-search-color;
 				// border-radius: 50px 0 0 0;
 				// background-image: url('http://i2.wp.com/frio.ideapruebas.com/blog/wp-content/uploads/2016/09/background-boton-search.png');
 				top: 0;
 				left: 0;
-				color: $white;
+				color: grey;
 				// display: none;
-				border-left: 2rem solid transparent;
-				border-bottom: 60px solid $color-theme; 
+				// border-left: 2rem solid transparent; efecto inclinado en frio proyecto
+				border-bottom: 60px solid $border-search-color;
 				height: 0;
 			}
 			// &:hover{

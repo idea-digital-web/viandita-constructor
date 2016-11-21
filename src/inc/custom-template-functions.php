@@ -131,7 +131,7 @@ function storefront_product_search() {
 			<div class="site-search">
 				<?php the_widget( 'WC_Widget_Product_Search', 'title=' ); ?>
 			</div>
-			<div class="site-search-shadow"></div>
+			<!-- <div class="site-search-shadow"></div> -->
 		</div>
 	<?php
 	}
