@@ -295,10 +295,10 @@ function footer_content() {
 			<img src="<?php get_template_part( 'templates/logo', 'footer'); ?>" alt="Logo Footer" />
 		</picture>
 		<p><?php bloginfo('description'); ?></p>
-		<span class="cards">
+		<!-- <span class="cards">
 			<i class="fa fa-cc-visa fa-3x"></i>
 			<i class="fa fa-cc-mastercard fa-3x"></i>
-		</span>
+		</span> -->
 	</div>
 	<div class="site-footer__item">
 		<h2 class="categories">Categorías</h2>
@@ -315,6 +315,15 @@ function footer_content() {
 		?>
 	</div>
 	<div class="site-footer__item">
+		<h2 class="contact-us">Dirección</h2>
+		<div class="site-footer__item--contact">
+			<p>
+				Centro Comercial La Redoma, <br>
+				Local 67. Los Robles. <br>
+				PORLAMAR - NUEVA ESPARTA
+			</p>
+		</div>
+
 		<h2 class="contact-us">
 		Contáctenos
 		</h2>
@@ -322,29 +331,32 @@ function footer_content() {
 			<i class="fa fa-phone"></i>
 			<span><?php get_template_part( 'templates/add', 'phone'); ?></span>
 		</div>
-		<div class="site-footer__item--contact">
+		<!-- <div class="site-footer__item--contact">
 			<i class="fa fa-mobile"></i>
 			<span><?php get_template_part( 'templates/add', 'mobile'); ?></span>
-		</div>
-		<div class="site-footer__item--contact">
+		</div> -->
+		<!-- <div class="site-footer__item--contact">
 			<i class="fa fa-whatsapp" aria-hidden="true"></i>
 			<span><?php get_template_part( 'templates/add', 'whatsapp'); ?></span>
-		</div>
+		</div> -->
 		<div class="site-footer__item--contact">
 			<i class="fa fa-envelope"></i>
-			<span>Correos:</span>
 			<!-- <span class="email"><?php bloginfo('admin_email'); ?></span> -->
 			<span><?php get_template_part( 'templates/add', 'email'); ?></span>
+		</div>
+		<div class="site-footer__item--contact">
+			<i class="fa fa-clock-o"></i>
+			<span>8:30 am a 4:30 pm</span>
 		</div>
 	<!-- 	<div class="site-footer__item--contact">
 			Somos tienda virtual con entregas previo acuerdo.
 		</div> -->
 	</div>
 	<div class="site-footer__item">
-	<!-- 	<h2 class="form">
+		<h2 class="form">
 		Mensaje Directo
-		</h2> -->
-		<h2 class="form"></h2>
+		</h2>
+		<!-- <h2 class="form"></h2> -->
 		<?php get_template_part( 'templates/footer', 'formcraft'); ?>
 	</div>
 </div>

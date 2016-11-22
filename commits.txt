@@ -1,3 +1,9 @@
+commit 0fdf4ca664c711924d112a442e7287fcf3f2d18c
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Nov 21 22:14:27 2016 -0400
+
+    Arreglado titulos
+
 commit 8581b84b9517ccd655338afad06a0b5d30a5268f
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Nov 21 20:27:18 2016 -0400

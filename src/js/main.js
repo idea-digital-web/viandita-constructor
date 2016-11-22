@@ -8,7 +8,7 @@ import customTipsy from './lib/customTipsy'
 import flexsliderPrincipal from './lib/flexsliderPrincipal'
 import addFlexsliderProducts from './lib/addFlexsliderProducts'
 import flexsliderProducts from './lib/flexsliderProducts'
-import addViewDetails from './lib/addViewDetails'
+// import addViewDetails from './lib/addViewDetails'
 import changueAttr from './lib/changueAttr'
 import addAttr from './lib/addAttr'
 import customStickyNavbar from './lib/customStickyNavbar'
@@ -30,7 +30,7 @@ import singleProduct from './lib/singleProduct'
     flexsliderPrincipal()
     addFlexsliderProducts()
     flexsliderProducts()
-    addViewDetails()
+    // addViewDetails()
     changueAttr()
     addAttr()
     customStickyNavbar()

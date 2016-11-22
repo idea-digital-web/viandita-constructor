@@ -18,13 +18,14 @@
 		width: 100%;
 		&:nth-child(1){
 			>h2{
-				visibility: hidden;
+				display: none;
 			}
 		}
 		&:nth-child(2){
 			display: none;
 		}
 		&:nth-child(3){
+			order: 4;
 			& span{
 				>p{
 					color: white;
@@ -36,17 +37,9 @@
 				}
 			}
 		}
-		&:nth-child(4){;
+		&:nth-child(4){
 			>h2{
-				width: 100%;
-				height: 15px;
-				background-color: $white;
-				margin: 3px 0 38px 0;
-				border-radius: 10px;
-				&:before,
-				&:after{
-					display: none;
-				}
+				text-align: center;
 			}
 		}
 		@include respond-to(md) {
@@ -58,7 +51,7 @@
 				margin-right: 5%;
 			}
 			&:nth-child(3){
-				border-left: 2px solid;
+				// border-left: 2px solid;
 				width: 30%;
 				padding-left: 3%;
 			}
@@ -70,7 +63,7 @@
 		& p,
 		& i,
 		& span{
-			color: $white;
+			color: $color_font_dark;
 		}
 		& h2{
 			// @include bg('http://localhost/wp-content/themes/idea-storefront-child/images/fondo-footer.png', $black-ligth, 100% 3rem);
@@ -80,7 +73,7 @@
 			font-size: 1.3rem !important;
 			text-transform: uppercase;
 			margin: 0 1rem 1.5rem 1rem;
-			@extend .circle_title;
+			// @extend .circle_title;
 			// line-height: 3rem;
 			// border: 3px solid $color-theme;
 			// border-bottom: 3px solid $color-theme;
