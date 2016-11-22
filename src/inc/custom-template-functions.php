@@ -221,13 +221,13 @@ add_filter( 'storefront_featured_products_args', 'products_columns' );
 
 // Editamos los títulos de las secciones
 function recent_products_title( $args ) {
-	$args['title'] = 'Los más recientes'; // title ~> Título de la sección
+	$args['title'] = 'Menú recientes'; // title ~> Título de la sección
 	return $args;
 }
 add_filter( 'storefront_recent_products_args', 'recent_products_title' );
 
 function on_sale_products_title( $args ) {
-	$args['title'] = 'Ofertas'; // title ~> Título de la sección
+	$args['title'] = 'Ofertas del mes'; // title ~> Título de la sección
 	return $args;
 }
 add_filter( 'storefront_on_sale_products_args', 'on_sale_products_title' );

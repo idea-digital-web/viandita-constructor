@@ -1,6 +1,8 @@
 jQuery(function (jQuery) {
     // Agregar borde en titulos
-  var template = `<div class='section-title__borderbottom'>
+  var template = `
+  <div class='section-title__borderbottom'>
+    <div class='borderbottom'></div>
     <div class='borderbottom'></div>
     </div>`
   jQuery('header.entry-header').find('h1.entry-title').after(template)
