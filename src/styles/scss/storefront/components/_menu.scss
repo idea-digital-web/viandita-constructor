@@ -234,7 +234,7 @@ button.menu-toggle {
 				li {
 					width: 100%;
 					&:hover{
-						background-color: $color-theme;
+						background-color: $color-theme-hover;
 					}
 					a {
 						width: 100%;
@@ -252,7 +252,7 @@ button.menu-toggle {
 	.storefront-primary-navigation {
 		clear: both;
 		@include clearfix;
-		background: $third-theme-color;
+		background: #90cdec;
 		text-align: center;
 	}
 
@@ -262,21 +262,22 @@ button.menu-toggle {
 			max-height: none;
 			overflow: visible;
 			box-sizing: border-box;
-			border-top: 5px solid $color-theme;
+			height: 60px;
+			// border-top: 5px solid $color-theme;
 			// border-bottom: 5px solid transparent;
 
 			> li {
 				// The first level menu item
 				&.current-menu-item>a,
 				&.current_page_item>a{
-					color: $color-theme;
+					color: $white;
 					font-weight: 700 !important;
 					&:hover{
 						color: $white;
 					}
 				}
 				> a {
-					padding: 1em;
+					padding: 1rem;
 					text-transform: uppercase;
 					box-sizing: border-box;
 					// border-top: 5px solid transparent;
@@ -285,16 +286,23 @@ button.menu-toggle {
 					font-size: 1rem;
 					font-style: italic;
 					color: $white;
+					height: 60px;
 					@include respond-to(lg) {
-						font-size: 1.2rem;
+						font-size: 20px;
 					}
+
+						// height: 60px;
+						// line-height: 10px;
+						// font-size: 20px;
+						// font-weight: 700;
+						// font-style: italic;
 
 					&.current-menu-item,
 					&.current_page_item{
-						color: $color-theme;
+						color: $white;
 						font-weight: 700 !important;
 						&:hover{
-							color: $color-theme-hover !important;
+							color: $white !important;
 						}
 					}
 
@@ -306,18 +314,15 @@ button.menu-toggle {
 					}
 
 					&:before {
-						content: $fa-var-circle;
+						content: "";
 						display: block;
+						width: 2px;
+						height: 30%;
+						background-color: rgba(#000,0.5);
 						position: absolute;
-						left: -5px;
-						font-size: 60%;
-						line-height: 32px;
+						top: 37.5%;
+						left: -3px;
 
-						// height: 30%;
-						//height: 100%;
-						//background-color: $secondary-color-theme;
-						// top: 37.5%;
-						//top: 0%;
 					}
 				}
 
@@ -402,27 +407,28 @@ button.menu-toggle {
 		line-height: 1;
 		width: 100% !important;
 		margin: 0 auto !important;
+		background-color: #e1952e;
 
 		>.menu-secundario-container{
 			border-left: 2rem solid transparent;
-			border-bottom: 60px solid #e6e6e6; //$background-shadow;
-			margin-left: 10rem;
+			// border-bottom: 60px solid #e6e6e6; //$background-shadow;
+			// margin-left: 10rem;
 
 			>.menu {
 				margin-right: 2rem;
 				font-size: .857em;
 				width: 100%;
-				text-align: right;
+				text-align: center;
 
 				> li:hover > a {
 					text-decoration: none;
-					color: $color-theme-hover;
+					background-color: $color-theme-hover;
 				}
 
 				> li {
 					&.current-menu-item>a,
 					&.current_page_item>a{
-						color: $color-theme;
+						color: $white;
 						font-weight: 700 !important;
 						&:hover{
 							color: $color-theme-hover;
@@ -430,10 +436,13 @@ button.menu-toggle {
 					}
 					> a {
 						position: relative;
-						color: $color_font_dark;
+						color: $white;
 						text-transform: uppercase;
 						height: 60px;
-						line-height: 24px;
+						line-height: 10px;
+						font-size: 20px;
+						font-weight: 700;
+						font-style: italic;
 
 
 						&:before {
@@ -441,7 +450,7 @@ button.menu-toggle {
 							display: block;
 							width: 2px;
 							height: 30%;
-							background-color: $color-theme; // rgba(#000,0.5);
+							background-color: rgba(#000,0.5);
 							position: absolute;
 							top: 37.5%;
 							left: -3px;

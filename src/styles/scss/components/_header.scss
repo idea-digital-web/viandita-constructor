@@ -8,7 +8,7 @@ $nav-line-height: 35px;
 
 .style-fontawesome{
 	background-color: white;
-	color: $third-theme-color;
+	color: #d46770; //$third-theme-color;
 	border-radius: 50%;
 	width: $nav-line-height;
 	height: $nav-line-height;
@@ -44,8 +44,8 @@ $nav-line-height: 35px;
 				display: flex;
 				flex-flow: row wrap;
 				// padding: 1rem 0; incluyendo el banner-header
-				margin-bottom: 7rem;
-				margin-top: 3rem;
+				margin-bottom: 6rem;
+				margin-top: 1rem;
 				// width: 70%;
 				width: 100%;
 				height: 0;
@@ -60,7 +60,7 @@ $nav-line-height: 35px;
 				margin: 0 auto; //la viandita
 				& div.site-search{
 					width: 100%;
-					padding: 0 1rem 0 2rem;
+					// padding: 0 1rem 0 2rem;
 					height: 0;
 				}
 				& div.site-search-shadow{
@@ -88,7 +88,7 @@ $nav-line-height: 35px;
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
-		background-color: $third-theme-color;
+		background-color: #d46770; //$third-theme-color;
 		box-sizing: border-box;
 		padding: 5px 0;
 		&--item{
@@ -146,17 +146,17 @@ $nav-line-height: 35px;
 					min-width: 50px;
 					color: $white;
 					font-weight: 300;
-					background-color: $third-theme-color;
-					outline-color: $third-theme-color;
+					background-color: #d46770; //$third-theme-color;
+					outline-color: #d46770; //$third-theme-color;
 					&:focus{
-						outline-color: $third-theme-color;
+						outline-color: #d46770; //$third-theme-color;
 					}
 					// >span>i{
 					// 	color: $third-theme-color;
 					// }
 				}
 				&>ul{
-					background-color: $third-theme-color; //$color-theme;
+					background-color: #d46770; //$third-theme-color; //$color-theme;
 					box-sizing: border-box;
 					& li{
 						width: 100%;
@@ -197,7 +197,7 @@ $nav-line-height: 35px;
 				}
 			}
 			>a>i.fa-instagram{
-				background-color: $third-theme-color;
+				background-color: #d46770; //$third-theme-color;
 				color: white;
 			}
 			@include respond-to(lg) {
