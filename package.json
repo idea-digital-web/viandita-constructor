@@ -1,10 +1,11 @@
 {
-  "name": "twentyfifteen-child",
+  "name": "la-viandita",
   "version": "1.0.0",
   "description": "Creacion de tema hijo en WordPress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
   },
   "repository": {
     "type": "git",

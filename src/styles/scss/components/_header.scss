@@ -196,10 +196,10 @@ $nav-line-height: 35px;
 					font-size: 1.5rem;
 				}
 			}
-			>a>i.fa-instagram{
-				background-color: #d46770; //$third-theme-color;
-				color: white;
-			}
+			// >a>i.fa-instagram{
+			// 	background-color: #d46770; //$third-theme-color;
+			// 	color: white;
+			// }
 			@include respond-to(lg) {
 				width: 20%;
 				text-align: center;

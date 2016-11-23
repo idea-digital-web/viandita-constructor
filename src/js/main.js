@@ -11,7 +11,8 @@ import flexsliderProducts from './lib/flexsliderProducts'
 // import addViewDetails from './lib/addViewDetails'
 import changueAttr from './lib/changueAttr'
 import addAttr from './lib/addAttr'
-import customStickyNavbar from './lib/customStickyNavbar'
+import stickyNavbarPrimary from './lib/stickyNavbarPrimary'
+import stickyNavbarSecondary from './lib/stickyNavbarSecondary'
 import singleProduct from './lib/singleProduct'
 
 (() => {
@@ -33,7 +34,8 @@ import singleProduct from './lib/singleProduct'
     // addViewDetails()
     changueAttr()
     addAttr()
-    customStickyNavbar()
+    stickyNavbarPrimary()
+    stickyNavbarSecondary()
     singleProduct()
   }
 })()

@@ -1,5 +1,5 @@
 jQuery(function (jQuery) {
-    jQuery('.storefront-primary-navigation').stickyNavbar({
+    jQuery('.secondary-navigation').stickyNavbar({
       activeClass: 'sticky',
       sectionSelector: 'scrollto',
       navOffset: 0,
