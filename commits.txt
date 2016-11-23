@@ -1,3 +1,9 @@
+commit ce25c11e32b49a13f086712f7c07976ead799c42
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Nov 23 17:09:22 2016 -0400
+
+    Mejorado hover en menu
+
 commit 2b0f0690edc513e7416bdb9a0feb10e4e52417d9
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Nov 23 16:01:16 2016 -0400
