@@ -159,6 +159,10 @@ button.menu-toggle {
 
 	.primary-navigation {
 		display: block;
+		//Efecto de rayitas La Viantida:
+		border-bottom: 5px solid black;
+		height: 60px;
+		//Fin efecto de rayitas La Viantida:
 	}
 
 	.main-navigation,
@@ -257,6 +261,12 @@ button.menu-toggle {
 	}
 
 	.main-navigation {
+		//Efecto de rayitas La Viantida:
+		box-shadow: 0px -6px 0px 0px black;
+		border-top: 5px solid white;
+		padding-bottom: .75rem;
+		margin-top: 1rem;
+		//Fin efecto de rayitas La Viantida:
 		ul.menu,
 		ul.nav-menu {
 			max-height: none;
@@ -285,7 +295,8 @@ button.menu-toggle {
 					font-weight: bold !important;
 					font-size: 1rem;
 					font-style: italic;
-					color: $white;
+					color: $color_font_dark;
+					text-shadow: 3px 3px 1px $white;
 					height: 60px;
 					@include respond-to(lg) {
 						font-size: 20px;
@@ -408,11 +419,20 @@ button.menu-toggle {
 		width: 100% !important;
 		margin: 0 auto !important;
 		background-color: #e1952e;
+		//Efecto de rayitas La Viantida:
+		box-shadow: 0px -6px 0px 0px black;
+		border-top: 5px solid white;
+		padding-bottom: .80rem;
+		//Fin efecto de rayitas La Viantida:
 
 		>.menu-secundario-container{
-			border-left: 2rem solid transparent;
+			// border-left: 2rem solid transparent;
 			// border-bottom: 60px solid #e6e6e6; //$background-shadow;
 			// margin-left: 10rem;
+			//Efecto de rayitas La Viantida:
+			border-bottom: 5px solid black;
+			height: 60px;
+			//Fin efecto de rayitas La Viantida:
 
 			>.menu {
 				margin-right: 2rem;
@@ -437,6 +457,7 @@ button.menu-toggle {
 					> a {
 						position: relative;
 						color: $white;
+						text-shadow: 3px 3px 1px #BF883D;
 						text-transform: uppercase;
 						height: 60px;
 						line-height: 10px;
