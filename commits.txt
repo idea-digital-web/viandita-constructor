@@ -1,3 +1,9 @@
+commit 2b0f0690edc513e7416bdb9a0feb10e4e52417d9
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Nov 23 16:01:16 2016 -0400
+
+    agregada lineas del menu
+
 commit 1fc219b80391f9936206f9b9b5bf13131f8ce3f5
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Nov 23 12:12:46 2016 -0400

@@ -322,6 +322,8 @@ button.menu-toggle {
 						// border-top: 5px solid $color-theme;
 						// border-bottom: 5px solid $color-theme;
 						background-color: $color-theme-hover;
+						text-shadow: none;
+						color: $white !important;
 					}
 
 					&:before {
@@ -443,6 +445,8 @@ button.menu-toggle {
 				> li:hover > a {
 					text-decoration: none;
 					background-color: $color-theme-hover;
+					text-shadow: none;
+					color: $white !important;
 				}
 
 				> li {
