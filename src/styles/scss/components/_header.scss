@@ -155,6 +155,9 @@ $nav-line-height: 35px;
 					// 	color: $third-theme-color;
 					// }
 				}
+				>.fa-check-square{
+					margin-left: 1rem;
+				}
 				&>ul{
 					background-color: #d46770; //$third-theme-color; //$color-theme;
 					box-sizing: border-box;
@@ -185,6 +188,9 @@ $nav-line-height: 35px;
 			}
 			a>i{
 				margin-right: 0.5rem;
+			}
+			>.fa-check-square{
+				margin-left: 1rem;
 			}
 		}
 		&--social{

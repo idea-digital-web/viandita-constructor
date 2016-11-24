@@ -71,6 +71,7 @@ function nav_top_login(){
 					<!-- <i class="fa fa-chevron-down" aria-hidden="true" id="caretDown"></i>
 					<i class="fa fa-chevron-up hide" aria-hidden="true" id="caretUp"></i> -->
 				</button>
+				<i class="fa fa-check-square" aria-hidden="true"></i>
 				<ul id="menuDropdownUl" class="hide dropdown-menu fadeIn">
 					<?php if (current_user_can('administrator') || current_user_can('shop_manager')): ?>
 					<li><a id="itemPanel" href="<?php home_url();?>/puedes-entrar-por-aqui"><i class="fa fa-tachometer" aria-hidden="true"></i>Escritorio</a></li>
@@ -86,6 +87,7 @@ function nav_top_login(){
 				<a href="<?php home_url();?>/mi-cuenta" title="">
 					<i class="fa fa-sign-in"></i>Iniciar Sesión / Registrarse
 				</a>
+				<i class="fa fa-check-square" aria-hidden="true"></i>
 			</div>
 			<?php };?>
 		</div>

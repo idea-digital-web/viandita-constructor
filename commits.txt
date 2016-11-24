@@ -1,3 +1,9 @@
+commit 841a00bc0fa58dcf28472e136a3f91279f1c7876
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Nov 24 14:42:29 2016 -0400
+
+    Cambiado cantidad de productos a mostrar
+
 commit cf159e9c49d883d3cb7d262292855aff2855e7f7
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Nov 23 17:28:20 2016 -0400
