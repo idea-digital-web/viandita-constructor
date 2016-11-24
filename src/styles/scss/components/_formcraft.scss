@@ -13,8 +13,8 @@ i.no-icon{
 .form-element-html .submit-button{
 	background-color: $callto-action-color !important;
 	>span.text{
-		color: $color_font_dark;
-		text-shadow: 3px 3px 1px $white !important;
+		color: $white;
+		// text-shadow: 3px 3px 1px $white !important;
 		font-size: 1.2rem;
 	}
 	&:hover{
