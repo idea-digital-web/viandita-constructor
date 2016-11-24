@@ -15,6 +15,7 @@ i.no-icon{
 	>span.text{
 		color: $color_font_dark;
 		text-shadow: 3px 3px 1px $white !important;
+		font-size: 1.2rem;
 	}
 	&:hover{
 		background-color: $callto-action-color-hover !important;
