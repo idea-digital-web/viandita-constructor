@@ -1,14 +1,14 @@
 import modernizr from './vendors/modernizr.js'
 import selectivizr from './vendors/selectivizr.js'
-// import flexslider from './vendors/jquery.flexslider.js'
 import tipsy from './vendors/jquery.tipsy.js'
-import menuDropdown from './lib/menuDropdown'
-import addBorderBottom from './lib/addBorderBottom'
 import customTipsy from './lib/customTipsy'
+// import flexslider from './vendors/jquery.flexslider.js'
 // import flexsliderPrincipal from './lib/flexsliderPrincipal'
 // import addFlexsliderProducts from './lib/addFlexsliderProducts'
 // import flexsliderProducts from './lib/flexsliderProducts'
 // import addViewDetails from './lib/addViewDetails'
+import menuDropdown from './lib/menuDropdown'
+import addBorderBottom from './lib/addBorderBottom'
 import changueAttr from './lib/changueAttr'
 import addAttr from './lib/addAttr'
 import stickyNavbarPrimary from './lib/stickyNavbarPrimary'
@@ -23,11 +23,11 @@ import singleProduct from './lib/singleProduct'
   function onDOMLoad () {
     modernizr()
     selectivizr()
-    // flexslider()
     tipsy()
     menuDropdown()
     addBorderBottom()
     customTipsy()
+    // flexslider()
     // flexsliderPrincipal()
     // addFlexsliderProducts()
     // flexsliderProducts()

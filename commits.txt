@@ -1,3 +1,9 @@
+commit b36bfed8843e542d96d06ba8619a94a7260ed205
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Nov 24 15:06:04 2016 -0400
+
+    Agregado icon en nav top
+
 commit 841a00bc0fa58dcf28472e136a3f91279f1c7876
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Nov 24 14:42:29 2016 -0400
