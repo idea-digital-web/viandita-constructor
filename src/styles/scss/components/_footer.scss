@@ -94,14 +94,22 @@
 		}
 		&--contact{
 			padding-left: 1rem;
+			>img{
+				width: 8%;
+				display: inline;
+				margin-right: 0.25rem;
+			}
 			>i{
 				margin-right: 0.5rem;
 				&.fa-mobile{
 					font-size: 150%;
 				}
 			}
-			>span.email{
-				font-size: 96%;
+			>span{
+				font-size: 20px;
+				&.email{
+					font-size: 96%;
+				}
 			}
 			// &:last-child{
 			// 	color: $white;
