@@ -7,7 +7,7 @@
 .single-product div.product{
 	@include respond-to(md) {
 		.images{
-			width: 39%;
+			width: 34%;
 			margin-right: 1%;
 			>a{
 				img{
