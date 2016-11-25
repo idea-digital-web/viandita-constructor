@@ -1,3 +1,9 @@
+commit 1ca87f54ef766a3eb45ad525d6b549e597a4c380
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Nov 25 15:34:40 2016 -0400
+
+    Arreglado formato de numero de telefono
+
 commit 80626972b60b2479598e2bbea8f5d6bfec1dda8b
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Nov 25 15:28:23 2016 -0400
