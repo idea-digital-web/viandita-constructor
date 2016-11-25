@@ -32,7 +32,7 @@ function storefront_site_branding() {
 	?>
 		<div class='logo_header'>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php get_template_part( 'templates/logo', 'header'); ?>" alt="Logo Header" />
+				<img src="<?php get_template_part( 'templates/header/logo', 'header'); ?>" alt="Logo Header" />
 			</a>
 		</div>
 	<?php
@@ -45,7 +45,7 @@ function storefront_site_branding() {
 function banner_header() {
 	?>
 		<picture>
-			<img src="<?php get_template_part( 'templates/banner', 'header'); ?>" alt="Banner Header" />
+			<img src="<?php get_template_part( 'templates/header/banner', 'header'); ?>" alt="Banner Header" />
 		</picture>
 	<?php
 }
@@ -201,7 +201,7 @@ function footer_content() {
 function storefront_credit() {
 	?>
 	<div class="site-info">
-		<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_template_part( 'templates/add', 'razonsocial' ) . ' ' . date( 'Y' ) ) ); ?>
+		<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_template_part( 'templates/credits/add', 'razonsocial' ) . ' ' . date( 'Y' ) ) ); ?>
 		<?php if ( apply_filters( 'storefront_credit_link', true ) ) {
 			printf( esc_attr__( '%1$s por %2$s', 'storefront' ), '| Desarrollado', '<a href="http://www.ideadigital.com.ve/" title="IdeaPro" rel="author" target="_blank">IdeaPro</a>' );
 		} ?>

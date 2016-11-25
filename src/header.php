@@ -25,7 +25,7 @@
 <body <?php body_class(); ?>>
 
 	<!-- Google Analitics -->
-<!-- <?php include_once('templates/analyticstracking.php') ?> -->
+<!-- <?php include_once('templates/head/analyticstracking.php') ?> -->
 
 <?php do_action( 'after_head' ); ?>
 
