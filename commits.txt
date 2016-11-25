@@ -1,3 +1,9 @@
+commit ab51af1aaafbd0fad442296102b4584240570f4b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Nov 25 10:55:22 2016 -0400
+
+    Eliminados enlaces de banner content
+
 commit ed4fabffeb2a42f1ce1b4374d16a6c03dd389d16
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Nov 25 10:33:18 2016 -0400
