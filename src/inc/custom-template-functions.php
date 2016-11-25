@@ -251,19 +251,19 @@ function banners_content(){
 	?>
 	<div class="content-area__slides">
 	  <div>
-	  <a href="<?php home_url(); get_template_part( 'templates/banner', 'url1'); ?>">
+	  <!-- <a href="<?php home_url(); get_template_part( 'templates/banner', 'url1'); ?>"> -->
 	    <img src="<?php get_template_part( 'templates/banner', 'image1'); ?>" alt="Banner Content" />
-	  </a>
+	  <!-- </a> -->
 	  </div>
 	  <div>
-	    <a href="<?php home_url(); get_template_part( 'templates/banner', 'url2'); ?>">
+	    <!-- <a href="<?php home_url(); get_template_part( 'templates/banner', 'url2'); ?>"> -->
 	      <img src="<?php get_template_part( 'templates/banner', 'image2'); ?>" alt="Banner Content" />
-	    </a>
+	    <!-- </a> -->
 	  </div>
 	  <div>
-	  <a href="<?php home_url(); get_template_part( 'templates/banner', 'url3'); ?>">
+	  <!-- <a href="<?php home_url(); get_template_part( 'templates/banner', 'url3'); ?>"> -->
 	    <img src="<?php get_template_part( 'templates/banner', 'image3'); ?>" alt="Banner Content" />
-	  </a>
+	  <!-- </a> -->
 	  </div>
 	</div>
 	<?php
