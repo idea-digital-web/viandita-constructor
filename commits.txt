@@ -1,3 +1,9 @@
+commit 43496b20c9b21242048dbcb7955de7551013fd4d
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Nov 25 09:45:10 2016 -0400
+
+    Terminado efecto rayitas en menu
+
 commit 413c7b76a1f814a5e112f1564f1bc0d03d70505e
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Nov 24 19:00:16 2016 -0400
