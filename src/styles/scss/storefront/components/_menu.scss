@@ -258,14 +258,23 @@ button.menu-toggle {
 		@include clearfix;
 		background: #90cdec;
 		text-align: center;
+		&:after{ //rayita blanca entre los 2 menues en la viandita
+			content: "";
+			height: 5px;
+			width: 100%;
+			background-color: white;
+			position: absolute;
+			top: 78px;
+		}
 	}
 
 	.main-navigation {
-		//Efecto de rayitas La Viantida:
+		background-color: $third-theme-color;
+		//Efecto de rayita blanca La Viantida:
 		box-shadow: 0px -6px 0px 0px black;
 		border-top: 5px solid white;
 		padding-bottom: .75rem;
-		margin-top: 1rem;
+		margin-top: 10px;
 		//Fin efecto de rayitas La Viantida:
 		ul.menu,
 		ul.nav-menu {

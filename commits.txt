@@ -1,3 +1,9 @@
+commit 413c7b76a1f814a5e112f1564f1bc0d03d70505e
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Thu Nov 24 19:00:16 2016 -0400
+
+    Cambiado iconos de footer
+
 commit a47b222e04a7f2ab2441531611263b1a7947f243
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Thu Nov 24 18:29:59 2016 -0400
