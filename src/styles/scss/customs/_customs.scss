@@ -97,12 +97,12 @@ h4 {
         // border-radius: 10px 0 0 10px;
         &:nth-child(1){
             width: 100%;
-            background-color: #e1952e;
+            background-color: $orange;
         }
         &:nth-child(2){
             width: 20%;
             margin: 10px 0;
-            background-color: #d46770;
+            background-color: $red;
             float: right;
         }
     }

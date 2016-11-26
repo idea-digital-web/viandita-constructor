@@ -10,9 +10,16 @@ $base-font: 'Asap', "Source Sans Pro", 'FontAwesome', "HelveticaNeue-Light", "He
 $header-font: $base-font;
 
 // base color scheme
-$color-theme: #1e9bf3;
-$secondary-color-theme: #1e9bf3;
-$third-theme-color: #90cdec;
+$black: #000000;
+$black-ligth: #1E1E1E;
+$green: #379712;
+$orange: #f7951d;
+$gray: #96A0A7;
+$blue: #6ccdeb;
+$red: #ef676f;
+$color-theme: $orange;
+$secondary-color-theme: $orange;
+$third-theme-color: $blue;
 $color-theme-hover: #282626;
 $body-background: #ffffff;
 $color_body: #43454b;
@@ -25,16 +32,11 @@ $callto-action-color: $price-color;
 $callto-action-color-hover: $price-color-hover;
 $offer-color: $price-color;
 $offer-color-hover: $price-color-hover;
-$footer-background-color: #90cdec;
-$footer-bottom-bar-background-color: #d46770;
+$footer-background-color: $blue;
+$footer-bottom-bar-background-color: $red;
 $error: 	#e2401c;
 $success: #0f834d;
 $info: #3D9CD2;
-$black: #000000;
-$black-ligth: #1E1E1E;
-$green: #379712;
-$orange: #EC6D4F;
-$gray: #96A0A7;
 $border-search-color: #ececec;
 $background-shadow: #cae9ff;
 $background-color-nav: $third-theme-color;
