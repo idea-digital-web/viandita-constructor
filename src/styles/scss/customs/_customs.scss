@@ -147,6 +147,14 @@ h4 {
     transition: all 0.7s ease;
 }
 
+.wpb_wrapper{
+  >ul{
+    >li{
+      list-style-type: disc !important;
+    }
+  }
+}
+
 noscript iframe.google-tag {
     display: none;
     visibility: hidden;
