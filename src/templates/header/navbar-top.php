@@ -15,15 +15,14 @@
   <div class="site-header_nav--item site-header_nav--welcome">
       <?php if ( is_user_logged_in() ) {
         global $current_user; wp_get_current_user(); if ($current_user->user_firstname == true): ?>
-      ¡Bienvenido <?php echo ''. $current_user->user_firstname .'!'; else: ?>
-      ¡Bienvenido!<?php endif?>
+      <span>¡Bienvenido <?php echo ''. $current_user->user_firstname .'!'; else: ?></span>
+      <span>¡Bienvenido!<?php endif?></span>
     <nav class="site-header_nav--welcome--dropdown">
       <button id="menuDropdown">
         <span><i class="fa fa-th-list" aria-hidden="true"></i></span>
         <!-- <i class="fa fa-chevron-down" aria-hidden="true" id="caretDown"></i>
         <i class="fa fa-chevron-up hide" aria-hidden="true" id="caretUp"></i> -->
       </button>
-      <i class="fa fa-check-square" aria-hidden="true"></i>
       <ul id="menuDropdownUl" class="hide dropdown-menu fadeIn">
         <?php if (current_user_can('administrator') || current_user_can('shop_manager')): ?>
         <li><a id="itemPanel" href="<?php home_url();?>/wp-admin"><i class="fa fa-tachometer" aria-hidden="true"></i>Escritorio</a></li>
@@ -36,12 +35,27 @@
     </nav>
     <?php } else {?>
     <div class="site-header_nav--login">
-      <a href="<?php home_url();?>/mi-cuenta" title="">
+      <a class="site-header_nav--login-login" href="<?php home_url();?>/mi-cuenta" title="">
         <i class="fa fa-sign-in"></i>Iniciar Sesión / Registrarse
       </a>
-      <i class="fa fa-check-square" aria-hidden="true"></i>
     </div>
     <?php };?>
+  </div>
+  <div class="site-header_nav--item site-header_nav--welcome-condiciones">
+    <a class="site-header_nav--welcome-condiciones-item" href="<?php home_url();?>/#" title="">
+      <!-- <i class="fa fa-phone"></i> -->
+      <picture>
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/wallet.png" alt="" />
+      </picture>
+      <span>Pagos</span>
+    </a>
+    <a class="site-header_nav--welcome-condiciones-item" href="<?php home_url();?>/#" title="">
+      <!-- <i class="fa fa-phone"></i> -->
+      <picture>
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/images/warning.png" alt="" />
+      </picture>
+      <span>Condiciones</span>
+    </a>
   </div>
   <div class="site-header_nav--item site-header_nav--social">
     <a href="<?php get_template_part( 'templates/header/add', 'facebook'); ?>" target="_blank"><i class="fa fa-facebook"></i></a>

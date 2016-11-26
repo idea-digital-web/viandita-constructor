@@ -124,11 +124,12 @@ $nav-line-height: 35px;
 				}
 			}
 			@include respond-to(lg) {
-				width: 22%;
+				width: 20%;
 			}
 			&:nth-child(1){
 				@include respond-to(lg) {
-					width: 25%;
+					width: 20%;
+					text-align: right;
 				}
 			}
 		}
@@ -136,10 +137,46 @@ $nav-line-height: 35px;
 			@include respond-to(lg) {
 				box-sizing: border-box;
 				display: flex;
-				width: 30%;
+				width: 40%;
+				>span{
+					display: block;
+					width: 40%;
+					text-align: right;
+					margin-right: 1rem;
+				}
+			}
+			&-condiciones{
+				width: 20%;
+				display: flex;
+				&-item{
+					// width: 50%;
+					display: inline-flex;
+					&:hover>span{
+						color: $color-theme-hover;
+					}
+					&:nth-child(1){
+						width: 35%;
+					}
+					&:nth-child(2){
+						width: 65%;
+					}
+					>picture{
+						width: 25px;
+						padding: 15% 0;
+						>img{
+							width: 100%;
+						}
+					}
+					>span{
+						margin-left: 0.5rem;
+						color: $white;
+						font-weight: 300;
+					}
+				}
 			}
 			&--dropdown {
-				margin-left: 1rem;
+				width: 10%;
+				text-align: center;
 				position: relative;
 				&>button{
 					padding: 4px 1rem;
@@ -161,6 +198,7 @@ $nav-line-height: 35px;
 				&>ul{
 					background-color: #d46770; //$third-theme-color; //$color-theme;
 					box-sizing: border-box;
+					text-align: left;
 					& li{
 						width: 100%;
 						&:hover{
@@ -182,6 +220,8 @@ $nav-line-height: 35px;
 			}
 		}
 		&--login{
+			width: 100%;
+			display: flex;
 			a,
 			a>i{
 				font-weight: 300 !important;
@@ -208,7 +248,7 @@ $nav-line-height: 35px;
 			// }
 			@include respond-to(lg) {
 				width: 20%;
-				text-align: center;
+				text-align: left;
 				font-size: 1.2rem;
 			}
 			& a{
