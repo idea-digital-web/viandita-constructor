@@ -1,3 +1,9 @@
+commit d86ce7ba039029948b07a2791d8d56c18e390da8
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Fri Nov 25 16:05:48 2016 -0400
+
+    Arreglado url wp-admin
+
 commit 1ca87f54ef766a3eb45ad525d6b549e597a4c380
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Fri Nov 25 15:34:40 2016 -0400

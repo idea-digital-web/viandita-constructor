@@ -120,14 +120,15 @@ button.menu-toggle {
 	}
 }
 
-.main-navigation ul {
+.main-navigation ul,
+.secondary-navigation ul {
 	margin-left: 0;
 	list-style: none;
 	margin-bottom: 0;
 
 	ul {
 		display: block;
-		margin-left: 1.387em;
+		// margin-left: 1.387em;
 	}
 
 	li {
@@ -254,14 +255,14 @@ button.menu-toggle {
 		@include clearfix;
 		background: #90cdec;
 		text-align: center;
-		// &:after{ //rayita blanca entre los 2 menues en la viandita
-		// 	content: "";
-		// 	height: 5px;
-		// 	width: 100%;
-		// 	background-color: white;
-		// 	position: absolute;
-		// 	top: 78px;
-		// }
+		&:after{ //rayita blanca entre los 2 menues en la viandita
+			content: "";
+			height: 5px;
+			width: 100%;
+			background-color: $white;
+			position: absolute;
+			top: 76px; // (60px de heigth + 16px padding bottom)
+		}
 	}
 
 	.main-navigation {
@@ -433,14 +434,14 @@ button.menu-toggle {
 		padding-bottom: 16px;
 		//Fin efecto de rayitas La Viantida:
 
-		&:after{ //rayita blanca entre los 2 menues en la viandita
-			content: "";
-			height: 5px;
-			width: 100%;
-			background-color: $white;
-			position: absolute;
-			top: 76px; // (60px de heigth + 16px padding bottom)
-		}
+		// &:after{ //rayita blanca entre los 2 menues en la viandita
+		// 	content: "";
+		// 	height: 5px;
+		// 	width: 100%;
+		// 	background-color: $white;
+		// 	position: absolute;
+		// 	top: 76px; // (60px de heigth + 16px padding bottom)
+		// }
 
 		>.menu-secundario-container{
 			// border-left: 2rem solid transparent;
@@ -499,6 +500,25 @@ button.menu-toggle {
 							left: -3px;
 						}
 					}
+
+					&.menu-item-has-children,
+					&.page_item_has_children {
+						&:hover {
+							&:after {
+								display: block;
+							}
+						}
+
+						> a {
+							&:after {
+								// The dropdown indicator
+								@include fa-icon();
+								content: "\f107";
+								margin-left: 0.2em;
+							}
+						}
+					}
+
 				}
 
 				> li:first-child a:before {
@@ -509,6 +529,7 @@ button.menu-toggle {
 					a {
 						padding: .326em .857em;
 						background: rgba(#000,0.05);
+						color: $white;
 					}
 
 					li:first-child a {
@@ -522,12 +543,52 @@ button.menu-toggle {
 					ul {
 						margin-top: -.618em;
 					}
+
+					// Dropdowns
+
+					li {
+						a {
+							padding: .857em 1.387em;
+							font-weight: 400;
+							font-size: 1.2rem;
+						}
+
+						&:last-child {
+							border-bottom: 0;
+						}
+
+						&.menu-item-has-children,
+						&.page_item_has_children {
+							> a {
+								&:after {
+									// The dropdown indicator
+									@include fa-icon();
+									content: "\f105";
+									float: right;
+									line-height: 1.618;
+								}
+							}
+						}
+					}
+
+					ul {
+						margin-left: 0;
+						box-shadow: none;
+					}
+
+					a:hover,
+					li:hover > a {
+						background-color: rgba(0,0,0,0.025);
+						color: $white;
+					}
+
+
 				}
 
 				a {
 					padding: 1.387em .857em;
 					font-weight: 300;
-					color: lighten( $color_body, 20% );
+					color: $white;
 
 					&:hover {
 						text-decoration: none;
