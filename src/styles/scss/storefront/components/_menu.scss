@@ -182,6 +182,7 @@ button.menu-toggle {
 
 				a {
 					display: block;
+					@include transition(all,ease,.3s);
 
 					&:before {
 						display: none;
@@ -216,6 +217,7 @@ button.menu-toggle {
 
 			// second level
 			ul {
+				@include transition(all,ease,.3s);
 				float: left;
 				position: absolute;
 				top: 100%;
@@ -305,6 +307,7 @@ button.menu-toggle {
 					color: $color_font_dark;
 					text-shadow: 3px 3px 1px $white;
 					height: 60px;
+					@include transition(all,ease,.3s);
 					@include respond-to(lg) {
 						font-size: 20px;
 					}
@@ -331,6 +334,7 @@ button.menu-toggle {
 						background-color: $color-theme-hover;
 						text-shadow: none;
 						color: $white !important;
+						@include transition(all,ease,.3s);
 					}
 
 					&:before {
@@ -376,6 +380,7 @@ button.menu-toggle {
 			ul {
 				// Dropdowns
 				margin-left: 0;
+				@include transition(all,ease,.3s);
 
 				li {
 					a {
@@ -461,14 +466,8 @@ button.menu-toggle {
 				border-bottom: 5px solid black;
 				//Fin efecto de rayitas La Viantida:
 
-				> li:hover > a {
-					text-decoration: none;
-					background-color: $color-theme-hover;
-					text-shadow: none;
-					color: $white !important;
-				}
-
 				> li {
+					@include transition(all,ease,.3s);
 					&.current-menu-item>a,
 					&.current_page_item>a{
 						color: $white;
@@ -476,6 +475,13 @@ button.menu-toggle {
 						&:hover{
 							color: $color-theme-hover;
 						}
+					}
+					&:hover > a {
+						text-decoration: none;
+						background-color: $color-theme-hover;
+						text-shadow: none;
+						color: $white !important;
+						@include transition(all,ease,.3s);
 					}
 					> a {
 						position: relative;

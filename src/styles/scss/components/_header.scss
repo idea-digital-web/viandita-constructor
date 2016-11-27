@@ -4,17 +4,19 @@
  * ----------------------------------------------------------------------------------
 */
 
-$nav-line-height: 35px;
+$nav-line-height: 50px;
+$height: 35px;
 
 .style-fontawesome{
-	background-color: white;
-	color: #d46770; //$third-theme-color;
+	background-color: $white;
+	color: $red; //$third-theme-color;
 	border-radius: 50%;
-	width: $nav-line-height;
-	height: $nav-line-height;
-	line-height: $nav-line-height;
+	width: $height;
+	height: $height;
 	text-align: center;
 	vertical-align: middle;
+	font-size: 30px;
+	margin-bottom: 3px;
 }
 
 .site-header{
@@ -88,15 +90,15 @@ $nav-line-height: 35px;
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: center;
-		background-color: #d46770; //$third-theme-color;
+		background-color: $red; //$third-theme-color;
 		box-sizing: border-box;
-		padding: 5px 0;
+		height: $nav-line-height;
 		&--item{
 			width: 100%;
 			box-sizing: border-box;
 			padding-left: 1rem;
 			display: none;
-			line-height: 32px;
+			line-height: $nav-line-height;
 			@include respond-to(lg) {
 				display: block;
 			}
@@ -118,10 +120,11 @@ $nav-line-height: 35px;
 			}
 			>i.fa-mobile{
 				margin-right: 0.5rem;
+				line-height: $height;
 				@extend .style-fontawesome;
-				&:before{
-					font-size: 2rem;
-				}
+				// &:before{
+				// 	font-size: 2rem;
+				// }
 			}
 			@include respond-to(lg) {
 				width: 20%;
@@ -146,23 +149,36 @@ $nav-line-height: 35px;
 				}
 			}
 			&-condiciones{
-				width: 20%;
+				width: 18%;
 				display: flex;
 				&-item{
 					// width: 50%;
-					display: inline-flex;
-					&:hover>span{
-						color: $color-theme-hover;
+					display: flex;
+					justify-content: center;
+					@include transition(all,ease,.3s);
+					&:hover{
+						background-color: $color-theme-hover;
+						@include transition(all,ease,.3s);
 					}
 					&:nth-child(1){
-						width: 35%;
+						width: 40%;
+						&:after {
+							content: "";
+							display: block;
+							width: 2px;
+							height: 50%;
+							background-color: $white;
+							position: relative;
+							top: 14px;
+							left: 7px;
+						}
 					}
 					&:nth-child(2){
-						width: 65%;
+						width: 60%;
 					}
 					>picture{
 						width: 25px;
-						padding: 15% 0;
+						padding-top: 15px;
 						>img{
 							width: 100%;
 						}
@@ -183,10 +199,10 @@ $nav-line-height: 35px;
 					min-width: 50px;
 					color: $white;
 					font-weight: 300;
-					background-color: #d46770; //$third-theme-color;
-					outline-color: #d46770; //$third-theme-color;
+					background-color: $red; //$third-theme-color;
+					outline-color: $red; //$third-theme-color;
 					&:focus{
-						outline-color: #d46770; //$third-theme-color;
+						outline-color: $red; //$third-theme-color;
 					}
 					// >span>i{
 					// 	color: $third-theme-color;
@@ -196,7 +212,7 @@ $nav-line-height: 35px;
 					margin-left: 1rem;
 				}
 				&>ul{
-					background-color: #d46770; //$third-theme-color; //$color-theme;
+					background-color: $red; //$third-theme-color; //$color-theme;
 					box-sizing: border-box;
 					text-align: left;
 					& li{
@@ -222,6 +238,13 @@ $nav-line-height: 35px;
 		&--login{
 			width: 100%;
 			display: flex;
+			>a{
+				@include transition(all,ease,.3s);
+				&:hover{
+					background-color: $color-theme-hover;
+					@include transition(all,ease,.3s);
+				}
+			}
 			a,
 			a>i{
 				font-weight: 300 !important;
@@ -238,12 +261,14 @@ $nav-line-height: 35px;
 			>a>i.fa-twitter,
 			>a>i.fa-instagram{
 				@extend .style-fontawesome;
-				&:before{
-					font-size: 1.5rem;
-				}
+				font-size: 25px;
+				line-height: 35px;
+				// &:before{
+				// 	font-size: 1.5rem;
+				// }
 			}
 			// >a>i.fa-instagram{
-			// 	background-color: #d46770; //$third-theme-color;
+			// 	background-color: $red; //$third-theme-color;
 			// 	color: white;
 			// }
 			@include respond-to(lg) {
