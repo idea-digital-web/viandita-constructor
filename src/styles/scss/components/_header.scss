@@ -17,6 +17,7 @@ $height: 35px;
 	vertical-align: middle;
 	font-size: 30px;
 	margin-bottom: 3px;
+	@include transition(all,ease,.3s);
 }
 
 .site-header{
@@ -280,6 +281,7 @@ $height: 35px;
 				margin: 0 5px;
 				&>i.fa:hover{
 					color: $color-theme-hover;
+					@include transition(all,ease,.3s);
 				}
 			}
 		}
