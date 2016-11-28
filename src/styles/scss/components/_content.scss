@@ -29,23 +29,30 @@ main.site-main>h2.section-title,
 }
 
 // Banner del content antes del Google Maps
-.content-area__slides{
-	display: flex;
-	flex-direction: column;
-	& div {
-		margin: 0.5rem 0;
-		width: 100%;
-		@include respond-to(md) {
-			margin: 0 0.5rem;
-			width: (33%);
-		}
-		& img{
+.content-area{
+	&__slides{
+		display: flex;
+		flex-direction: column;
+		& div {
+			margin: 0.5rem 0;
 			width: 100%;
+			@include respond-to(md) {
+				margin: 0 0.5rem;
+				width: (33%);
+			}
+			& img{
+				width: 100%;
+			}
+		}
+		@include respond-to(md) {
+			flex-direction: row;
 		}
 	}
-	@include respond-to(md) {
-		flex-direction: row;
-	}
+	// &__image{
+	// 	&-left{
+	// 		visibility: hidden;
+	// 	}
+	// }
 }
 a.woocommerce-Button.button{
 	background-color: $color-theme;
