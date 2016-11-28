@@ -42,14 +42,15 @@
     <?php };?>
   </div>
   <div class="site-header_nav--item site-header_nav--welcome-condiciones">
-    <a class="site-header_nav--welcome-condiciones-item" href="<?php home_url();?>/#" title="">
+    <a class="site-header_nav--welcome-condiciones-item wallet" href="<?php home_url();?>/#" title="">
       <!-- <i class="fa fa-phone"></i> -->
       <picture>
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/wallet.png" alt="" />
       </picture>
       <span>Pagos</span>
     </a>
-    <a class="site-header_nav--welcome-condiciones-item" href="<?php home_url();?>/#" title="">
+    <div class="site-header_nav--welcome-condiciones-item separador"></div>
+    <a class="site-header_nav--welcome-condiciones-item warning" href="<?php home_url();?>/#" title="">
       <!-- <i class="fa fa-phone"></i> -->
       <picture>
         <img src="<?php bloginfo('stylesheet_directory'); ?>/images/warning.png" alt="" />

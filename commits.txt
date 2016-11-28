@@ -1,3 +1,9 @@
+commit f49ec8c8a8afb613fb33e3b0ed1c4f6a0d8187b9
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Mon Nov 28 15:56:21 2016 -0400
+
+    cambiado color de enlace de credits
+
 commit e6783f006aab191b7a1b621068f4f0197ce511d5
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Nov 28 15:51:35 2016 -0400

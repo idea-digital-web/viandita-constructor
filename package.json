@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp",
     "styles": "gulp build:styles",
-    "images": "gulp build:images"
+    "images": "gulp build:images",
+    "scripts": "gulp build:scripts"
   },
   "repository": {
     "type": "git",
