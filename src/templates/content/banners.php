@@ -1,4 +1,4 @@
-<div class="content-area__slides">
+<div class="content-area__slides" data>
   <div id="banner-left" class="content-area__image content-area__image-left">
   <!-- <a href="<?php home_url(); get_template_part( 'templates/content/banner', 'url1'); ?>"> -->
     <img src="<?php bloginfo('stylesheet_directory'); ?>/images/banner-content1.jpg" alt="Banner Content" />

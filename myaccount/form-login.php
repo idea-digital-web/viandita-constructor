@@ -108,7 +108,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php do_action( 'register_form' ); ?>
 
 			<!-- Agregado Recaptcha -->
-			<div class="g-recaptcha" data-sitekey="6LfhGyoTAAAAAPpBopOFsh5hHCjpdG884cOwhezv"></div>
+			<!-- <div class="g-recaptcha" data-sitekey="6LfhGyoTAAAAAPpBopOFsh5hHCjpdG884cOwhezv"></div> -->
 
 			<p class="woocomerce-FormRow form-row">
 				<?php wp_nonce_field( 'woocommerce-register', 'woocommerce-register-nonce' ); ?>

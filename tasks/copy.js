@@ -9,4 +9,8 @@ gulp.task('copy', () => {
     .pipe(gulp.dest('./public/fonts/fonts')) // Comentar si se va a usar el cdnjs
   gulp.src('./src/videos/**/*.*')
     .pipe(gulp.dest('./public/videos'))
+  gulp.src('./src/js/lib/smoove-init.js')
+    .pipe(gulp.dest('./public/js'))
+  gulp.src('./src/js/vendors/jquery.smoove.min.js')
+    .pipe(gulp.dest('./public/js/vendors'))
 })
