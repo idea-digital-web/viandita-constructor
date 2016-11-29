@@ -2,11 +2,9 @@ jQuery(function (jQuery) {
     jQuery('.storefront-primary-navigation').stickyNavbar({
       activeClass: 'sticky',
       sectionSelector: 'scrollto',
-      navOffset: 100,
       animDuration: 300,
       startAt: 0, // Stick the menu at XXXpx from the top
       easing: 'easeInQuad',
-      bottomAnimation: true,
       jqueryEffects: false,
       animateCSS: true,
       animateCSSRepeat: false,

@@ -12,7 +12,7 @@ import addBorderBottom from './lib/addBorderBottom'
 import changueAttr from './lib/changueAttr'
 import addAttr from './lib/addAttr'
 import stickyNavbarPrimary from './lib/stickyNavbarPrimary'
-import stickyNavbarSecondary from './lib/stickyNavbarSecondary'
+// import stickyNavbarSecondary from './lib/stickyNavbarSecondary'
 import singleProduct from './lib/singleProduct'
 
 (() => {
@@ -35,7 +35,7 @@ import singleProduct from './lib/singleProduct'
     changueAttr()
     addAttr()
     stickyNavbarPrimary()
-    stickyNavbarSecondary()
+    // stickyNavbarSecondary()
     singleProduct()
   }
 })()
