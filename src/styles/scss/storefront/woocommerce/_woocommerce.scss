@@ -355,10 +355,13 @@ ul.products {
 		margin-bottom: 4.236em;
 		text-align: center;
 		position: relative;
+		@include transition(all,ease,.3s);
 
 		&:hover{
 			img {
 				border: 1px solid $color-theme-hover;
+				transform: scale(1.1);
+				@include transition(all,ease,.3s);
 			}
 			.view-details{
 				background-color: $color-theme-hover;

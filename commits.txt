@@ -1,3 +1,9 @@
+commit d93656b87e06701f3255cf5819ce1cba9ba165d2
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Nov 30 14:38:27 2016 -0400
+
+    Agregado transform a imagen de header
+
 commit 24786c240ff86fac08b3036c2b5bb0f23be5898b
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Wed Nov 30 13:25:18 2016 -0400
