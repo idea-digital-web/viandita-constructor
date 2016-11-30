@@ -1,3 +1,9 @@
+commit 88c1ada72d975e60fdda34a08f668382329a3ca1
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Tue Nov 29 00:21:18 2016 -0400
+
+    Reconfigurando
+
 commit e968fd213d29cc093ab76cc753297f98048291c1
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Mon Nov 28 23:17:07 2016 -0400
