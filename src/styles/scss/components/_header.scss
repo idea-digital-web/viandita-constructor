@@ -37,6 +37,13 @@ $height: 35px;
 				// margin-right: 1rem;
 				>a{
 					margin: 0 auto;
+					>img{
+						@include transition(all,ease,.3s);
+						&:hover{
+							transform: scale(1.1);
+							@include transition(all,ease,.3s);
+						}
+					}
 				}
 			}
 		}

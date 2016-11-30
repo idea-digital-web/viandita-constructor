@@ -1,3 +1,9 @@
+commit 24786c240ff86fac08b3036c2b5bb0f23be5898b
+Author: Alex Ballera <alexballera@gmail.com>
+Date:   Wed Nov 30 13:25:18 2016 -0400
+
+    Agregado enlaces en navtop
+
 commit 88c1ada72d975e60fdda34a08f668382329a3ca1
 Author: Alex Ballera <alexballera@gmail.com>
 Date:   Tue Nov 29 00:21:18 2016 -0400
